@@ -1,6 +1,6 @@
 # Tafeel Task - Users List App
 
-A Flutter application that displays a list of users from a mock API with Clean Architecture and Cubit state management.
+A Flutter application developed as a technical task for the Flutter Developer position at **Tafeel Company**. The app displays a list of users from a mock API implementing Clean Architecture and Cubit state management.
 
 ## Features
 
@@ -29,12 +29,12 @@ Clean Architecture with 3 layers:
 
 \`\`\`
 lib/
-├── core/           # Shared utilities
+├── core/ # Shared utilities
 ├── features/
-    └── users/
-        ├── data/        # API, models, repositories
-        ├── domain/      # Entities, use cases
-        └── presentation/ # UI, cubits, widgets
+└── users/
+├── data/ # API, models, repositories
+├── domain/ # Entities, use cases
+└── presentation/ # UI, cubits, widgets
 \`\`\`
 
 ## Getting Started
@@ -48,39 +48,47 @@ lib/
 ### Installation
 
 1. Clone the repository
-\`\`\`bash
-git clone https://github.com/mohamedrefaysayed/tafeeltask.git
-cd tafeeltask
-\`\`\`
+   \`\`\`bash
+   git clone https://github.com/mohamedrefaysayed/tafeeltask.git
+   cd tafeeltask
+   \`\`\`
 
 2. Install dependencies
-\`\`\`bash
-flutter pub get
-\`\`\`
+   \`\`\`bash
+   flutter pub get
+   \`\`\`
 
 3. Run the app
-\`\`\`bash
-flutter run
-\`\`\`
+   \`\`\`bash
+   flutter run
+   \`\`\`
 
 ## API
 
 Uses [ReqRes API](https://reqres.in/):
+
 - \`GET /api/users?page={page}\` - Get users list
 - \`GET /api/users/{id}\` - Get user details
 
 ## Build
 
 ### Android
+
 \`\`\`bash
 flutter build apk --release
 \`\`\`
 
 ### iOS
+
 \`\`\`bash
 flutter build ios --release
 \`\`\`
 
-## License
+## About
 
-This project is created for educathtional purposes.
+This project is a technical assignment for the **Flutter Developer** position at **Tafeel Company**, demonstrating proficiency in:
+
+- Clean Architecture principles
+- State management with Cubit
+- API integration and error handling
+- Modern UI/UX with Flutter best practices

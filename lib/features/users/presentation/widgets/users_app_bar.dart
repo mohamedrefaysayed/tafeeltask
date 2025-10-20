@@ -21,9 +21,8 @@ class UsersAppBar extends StatelessWidget {
         builder: (context, constraints) {
           return FlexibleSpaceBar(
             titlePadding: const EdgeInsets.only(left: 0, bottom: 16, right: 16),
-            title: Column(
-              mainAxisSize: MainAxisSize.min,
-              crossAxisAlignment: CrossAxisAlignment.start,
+            title: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
                   '$userCount ${userCount == 1 ? "user" : "users"} loaded',
